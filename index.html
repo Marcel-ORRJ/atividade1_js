@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparador Numérico</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Comparador Numérico</h1>
+        <h2>Insira os dados</h2>
+        <form id="form-comparador">
+            <p>Valor A</p>
+            <input type="number" id="valor-a" required />
+            <p>Valor B</p>
+            <input type="number" id="valor-b" required />
+            <button id="btn-submit" type="submit">Comparar</button>
+        </form>
+        <p id="success-message"></p>
+        <p id="error-message"></p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
